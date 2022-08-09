@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD8D8"
+    tools:context=".addAnswer">
+
+    <EditText
+        android:id="@+id/que"
+        android:layout_width="270dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="71dp"
+        android:background="@color/white"
+        android:hint="Write your question ...."
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2Q"
+        android:layout_width="85dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="251dp"
+        android:gravity="center_vertical"
+        android:paddingStart="5dp"
+        android:text="Question"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sendQ"
+        android:layout_width="132dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="140dp"
+        android:background="@drawable/button_background"
+        android:text="Send"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/que" />
+</androidx.constraintlayout.widget.ConstraintLayout>

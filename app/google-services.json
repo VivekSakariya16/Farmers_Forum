@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "636796919730",
+    "project_id": "quora-for-farmers",
+    "storage_bucket": "quora-for-farmers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636796919730:android:843ca5ea86ab1574ff0eab",
+        "android_client_info": {
+          "package_name": "com.example.quoraforfarmers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636796919730-6of16kbb89385ai5o1neqlhm6voa5t8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quoraforfarmers",
+            "certificate_hash": "09f6392e7ab5a3d869ee211018a523d78e1ccc07"
+          }
+        },
+        {
+          "client_id": "636796919730-95n1lh3srh5jdu9a1k3haacjp2bfvqn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdALvPGGTaOae1rYOBVHjo62Vh2H-kYrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636796919730-95n1lh3srh5jdu9a1k3haacjp2bfvqn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
